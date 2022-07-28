@@ -1,7 +1,7 @@
 const btnDago = document.querySelector('.dago')
 const carlos = document.querySelector(".carlos")
 let color = document.getElementById("color")
-let color2="detente ladron!";
+let fraseLadron ="detente ladron!";
 let angelo = document.querySelector(".angelo")
 let fondo = document.querySelector("div")
 
@@ -21,10 +21,10 @@ function cambio(){
     fondo.style.backgroundColor = "red";
   }   
 }
-function cambiarColor(){
-  color.innerHTML = color2
+function detenteLadron(){
+  color.innerHTML = fraseLadron 
 }
-function cambiarColor(){
+function cambiarColorDago(){
     document.body.style.backgroundColor = 'rgb(193, 193, 246)'
 }
 function cargarImagen(){
@@ -37,6 +37,6 @@ function cargarImagen(){
 
 carlos.addEventListener("click",ColorTexto);
 angelo.addEventListener("click",cambio);
-angelo.addEventListener("click",cambiarColor);
-btnDago.addEventListener('click', cambiarColor)
+angelo.addEventListener("click", detenteLadron);
+btnDago.addEventListener('click', cambiarColorDago)
 btnDago.addEventListener('click', cargarImagen)
