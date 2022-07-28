@@ -1,6 +1,5 @@
 let angelo = document.querySelector(".angelo")
 let fondo = document.querySelector("div")
-let parar = document.querySelector(".parar")
 
 function cambio(){
 
@@ -13,8 +12,9 @@ function cambio(){
 
 angelo.addEventListener("click",cambio)
 
+let color = document.getElementById("color")
+let color2="detente ladron!";
 
-parar.addEventListener("click",function(){
-    angelo.removeEventListener("click",cambio);
-   fondo.style.backgroundColor="red"
-});
+function cambiarColor(){
+    color.innerHTML = color2
+}
