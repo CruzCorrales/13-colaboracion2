@@ -4,6 +4,8 @@ let color = document.getElementById("color")
 let fraseLadron ="detente ladron!";
 let angelo = document.querySelector(".angelo")
 let fondo = document.querySelector("div")
+const btnCruz = document.querySelector(".cruz");
+const divCruz = document.querySelector(".divCruz");
 
 function ColorTexto(){
   const respuestaUsuario = prompt("Elige tu color") 
@@ -34,9 +36,17 @@ function cargarImagen(){
     div.className = 'img'
     mainDago.append(div)
 }
+function ocultarDiv  (){
+    divCruz.style.display = "none";
+}
+function redondeaBtn  (){
+    divCruz.classList.add("redondeo");
+}
 
 carlos.addEventListener("click",ColorTexto);
 angelo.addEventListener("click",cambio);
 angelo.addEventListener("click", detenteLadron);
 btnDago.addEventListener('click', cambiarColorDago)
 btnDago.addEventListener('click', cargarImagen)
+btnCruz.addEventListener("click", ocultarDiv);
+divCruz.addEventListener("mouseOn", redondeaBtn);
