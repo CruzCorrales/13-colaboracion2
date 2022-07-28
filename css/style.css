@@ -20,3 +20,10 @@
     left: 18pc;
     top: 8pc;
 }
+.dago{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 0.6em;
+    font-size: 1em;
+}
