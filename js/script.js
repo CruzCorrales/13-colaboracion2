@@ -1,7 +1,11 @@
 const btnCruz = document.querySelector(".cruz");
-const main = document.querySelector(".main");
+const divCruz = document.querySelector(".divCruz");
 
-function cambiarColor (){
-    main.style.backgroundColor = "red";
+function ocultarDiv  (){
+    divCruz.style.display = "none";
 }
-btnCruz.addEventListener("click", cambiarColor);
+function redondeaBtn  (){
+    divCruz.classList.add("redondeo");
+}
+btnCruz.addEventListener("click", ocultarDiv);
+divCruz.addEventListener("mouseOn", redondeaBtn);

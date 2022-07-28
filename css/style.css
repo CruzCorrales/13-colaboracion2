@@ -5,11 +5,13 @@
     background-color: blue;
     border-radius: 50px;
 }
-.main{
-    height: 1000px;
-    width:100%;
+.divCruz{
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    background-color: red;
+    border: 2px solid black;
 }
-.verde{
-    background-color: green;
-    color: aqua;
+.redondeo{
+    border-radius: 50px;
 }
