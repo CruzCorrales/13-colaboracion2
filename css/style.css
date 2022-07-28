@@ -1,4 +1,8 @@
-div{
+
+*{ margin: 0;
+padding: 0;}
+
+.div-rojoAzul{
     width: 500px;
     height: 288px;
 }
