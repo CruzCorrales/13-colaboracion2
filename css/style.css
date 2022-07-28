@@ -1,3 +1,25 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.div-rojoAzul{
+    width: 500px;
+    height: 288px;
+    background-color: red;
+}
+.imgangelo{    
+    width: 212px;
+    position: absolute;
+    left: 4pc;
+    top: 4pc;
+}
+.imgangelo2{    
+    width: 218px;
+    position: absolute;
+    left: 18pc;
+    top: 8pc;
+}
 .dago{
     background-color: black;
     color: white;
