@@ -1,7 +1,6 @@
 const btnDago = document.querySelector('.dago')
 const carlos = document.querySelector(".carlos")
 let color = document.getElementById("color")
-let fraseLadron ="detente ladron!";
 let angelo = document.querySelector(".angelo")
 let fondo = document.querySelector("div")
 const btnCruz = document.querySelector(".cruz");
@@ -16,7 +15,6 @@ function ColorTexto(){
   carlos.after(parrafo)
 }
 function cambio(){
-  
   if(fondo.style.backgroundColor == "red") {
     fondo.style.backgroundColor="blue";
   }else{
@@ -24,6 +22,7 @@ function cambio(){
   }   
 }
 function detenteLadron(){
+  let fraseLadron ="detente ladron!";
   color.innerHTML = fraseLadron 
 }
 function cambiarColorDago(){
@@ -37,9 +36,9 @@ function cargarImagen(){
     mainDago.append(div)
 }
 function ocultarDiv  (){
-    divCruz.style.display = "none";
+    divCruz.classList.toggle("desaparecer");
 }
-function redondeaBtn  (){
+function redondeaBtn(){
     divCruz.classList.add("redondeo");
 }
 
@@ -49,4 +48,4 @@ angelo.addEventListener("click", detenteLadron);
 btnDago.addEventListener('click', cambiarColorDago)
 btnDago.addEventListener('click', cargarImagen)
 btnCruz.addEventListener("click", ocultarDiv);
-divCruz.addEventListener("mouseOn", redondeaBtn);
+divCruz.addEventListener("mouseover", redondeaBtn);

@@ -44,3 +44,6 @@
 .redondeo{
     border-radius: 50px;
 }
+.desaparecer{
+    display: none;
+}
