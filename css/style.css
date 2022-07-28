@@ -1,0 +1,15 @@
+.cruz{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: blue;
+    border-radius: 50px;
+}
+.main{
+    height: 1000px;
+    width:100%;
+}
+.verde{
+    background-color: green;
+    color: aqua;
+}
