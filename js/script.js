@@ -4,23 +4,19 @@ const cruz = document.querySelector(".cruz")
 const carlos = document.querySelector(".carlos")
 
 
-function cambiarColor(){
+function ColorTexto(){
     const respuestaUsuario = prompt("Elige tu color") 
     document.body.style.backgroundColor=respuestaUsuario
-}
-
-function crearTexto(){
-let parrafo =document.createElement("p")
-parrafo.innerHTML = "Repaso general"
-dago.append(parrafo)
+    let parrafo =document.createElement("p")
+    parrafo.innerHTML = "Repaso general"
+    dago.append(parrafo)
 }
 
 
 
-angelo.addEventListener("click",cambiarColor)
-dago.addEventListener("click",crearTexto)
-cruz.addEventListener("click",cambiarColor)
-carlos.addEventListener("click",crearTexto)
+
+
+carlos.addEventListener("click",ColorTexto)
 
 
 
