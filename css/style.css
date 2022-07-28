@@ -1,6 +1,7 @@
 *{ 
     margin: 0;
     padding: 0;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .div-rojoAzul{
@@ -46,4 +47,8 @@
 }
 .desaparecer{
     display: none;
+}
+.header__h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
